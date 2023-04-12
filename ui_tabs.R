@@ -1,7 +1,7 @@
 library(shiny)
 
 ### Khorana Risk Score for Venous Thromboembolism in Cancer Patients
-tab_khorana <- menuItem("Risk Model", tabName = "Risk Model")
+tab_khorana <- menuItem("Risk Model", tabName = "Khorana")
 
 content_khorana <- div(id = 'sidebar_khorana',
                        conditionalPanel("input.tabs === 'Khorana'",
